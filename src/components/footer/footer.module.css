@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Montserrat,sans-serif ;
+    background-color: #242527;
+    color: #fff;
+}
+.footer>span{
+    color: #e0a80d;
+    margin: 8px 20px;
+}

@@ -1,0 +1,41 @@
+@font-face{
+    font-family: Montserrat;
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+.skillsSection{
+    background: url('../../images/some-facts-bg.png') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.skillCeneterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+.myskill{
+    color: rgb(100, 100, 100);
+    margin: 10px 30px;
+    font-size: 90px;
+}
+.myskill:hover{
+    color: #e0a80d;
+}
+.nodejs{
+    color: rgb(100, 100, 100);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 40px;
+    font-size: 180px;
+}
+.nodejs:hover{
+    color: #e0a80d;
+
+}

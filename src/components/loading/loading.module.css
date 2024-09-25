@@ -1,0 +1,49 @@
+@font-face{
+    font-family: Agutina ;
+    src: url('../../fonts/Agutina\ 400.otf');
+  }
+.loaderDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2c2c;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.logo{
+
+    margin-top: 50px;
+
+
+}
+.myName{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #e0a80d;
+    font-family: "Agutina";
+}
+
+
+.signs{
+    color: gray;
+    font-weight:lighter  ;
+    font-size: 35px;
+    margin: 0px 7px;
+    font-family: sans-serif;
+}
+@media (max-width: 614px){
+    .myName{
+        font-size: 43px;}
+        .signs{
+
+        margin: 0px 0px;
+        }
+}

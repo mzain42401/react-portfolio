@@ -1,0 +1,222 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+
+  
+ .contact{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2d2e2e;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+ section .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    color: #e0a80d;
+}
+
+
+.maxWidth{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.contact .contactContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact .contactContent .column{
+    width: calc(50% - 30px);
+}
+.contact .contactContent .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #e0a80d;
+}
+.contact .contactContent .left p{
+    text-align: justify;
+}
+.contact .contactContent .left .icons{
+    margin: 10px 0;
+}
+.contact .contactContent .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    color: #e0a80d;
+    
+}
+.contact .contactContent .row>span{
+    font-size: 25px;
+
+}
+.contact .contactContent .row .info{
+    margin-left: 30px;
+}
+.contact .contactContent .row i{
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contactContent .info .head{
+    font-weight: 500;
+    color: #e0a80d;
+    margin-bottom: 6px;
+}
+.contact .contactContent .info .subTitle{
+    color: #bac8d3;
+}
+.contact .right form .fields{
+    display: flex;
+    
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 50px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    color: #495057;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 5px;
+    font-size: 17px;
+    background-color:#fff;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  
+   background-color: transparent;
+   border: 2px solid #e0a80d;
+   color: #bac8d3;
+
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact  .buttonArea>button{
+  display: flex;
+  align-items: center;
+  background-color:transparent;
+  margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #e0a80d;
+    outline: none;
+
+}
+
+.contact  .buttonArea>button:hover{
+background-color:#e0a80d ;
+color: #2d2e2e;
+}
+
+
+.link{
+    color: #e0a80d;
+    text-decoration: none;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    border-radius: 6px;
+    text-align: center;
+}
+.icon{
+    border: 1px solid #e0a80d;
+    background-color: transparent;
+margin-top: 50px;
+margin-right: 25px;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover{
+    color: #2d2e2e;
+    background-color: #e0a80d;
+}
+.whatsapp{
+    background-color: transparent;
+    border: none;
+    color: #e0a80d;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.whatsapp:hover{
+    color: #2d2e2e;
+}
+
+
+@media (max-width: 995px) {
+    .maxWidth{
+        padding: 0 50px;
+    }
+}
+
+
+
+@media (max-width: 947px){
+    .contact .contactContent .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .maxWidth{
+        max-width: 930px;
+    }
+}
+@media (max-width: 690px) {
+    .maxWidth{
+        padding: 0 35px;
+    }}
+
+@media (max-width: 500px) {
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+   
+}
+
+    

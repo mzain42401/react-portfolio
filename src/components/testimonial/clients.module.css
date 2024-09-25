@@ -1,0 +1,129 @@
+.testHeading{
+    background-color: #3b3b3b;
+    padding: 50px 0px;
+    text-align: center;
+    color: #e0a80d;
+    font-size: 30px;
+font-family: "Montserrat";
+font-weight: bolder;
+
+}
+.reviewSection{
+height: max-content;
+padding-bottom: 25px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+background-color: #3b3b3b;
+}
+.center{
+    height: max-content;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    width: 72%;
+    background-color: #292929;
+    color: gray;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mdFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clientImg{
+    margin-top: 40px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px #e0a80d;
+    width: 100px;
+}
+.clientName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 15px 0px;
+    text-transform: uppercase;
+font-weight: bold;
+color: white;
+font-size: 20px;
+}
+.rank{
+    color: darkgray;
+    font-size: 13px;
+}
+.stars{
+    color: #e0a80d;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.startNum{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.mdSecond,.mdLast{
+    color: #e0a80d;
+    font-size: 35px;
+}
+.mdLast{
+
+    margin-bottom: 20px;
+}
+.mdThird{
+    width: 90%;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 18px;
+color: #bac8d3;
+}
+.leftBtn,.righBtn{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 0px 10px;
+
+    
+}
+.leftBtn>span,.righBtn>span{
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 8px;
+    color: #e0a80d;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .center{
+        width: 100% !important;
+    }
+    .leftBtn,.righBtn{
+width: 2%;
+font-size: 20px;
+margin: 0px 20px;
+
+
+    }
+    .middle{
+        width: 100%;
+    }
+    .mdThird{
+        font-size: 14px;
+    }
+  }

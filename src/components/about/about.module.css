@@ -1,0 +1,148 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+.aboutPageContainer{
+    background-color: #2D2E2E;
+padding: 50px 10px 40px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+.aboutCenterDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 40px;
+
+
+}
+.aboutMe{
+    margin: 30px 0px 50px 0px;
+    font-size: 25px;
+}
+.aboutMeDiv>h1{
+    color: #e0a80d;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+}
+.picContentDiv{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap-reverse;
+}
+.myImageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40%;
+}
+
+.myPersonalImage{
+    height: 350px;
+    width: 320px;
+    position: relative;
+    border: 5px solid #fff;
+    filter: drop-shadow(0px 0px 05px #e0a80d);
+}
+.myPersonalImage>img{
+    transition: all ease 1s;
+    height: 440px;
+    width: 320px;
+position: absolute;
+top: -25%;
+   
+}
+.aboutMeDiv{
+height: 480px;
+width: 50%;
+display: flex;
+margin-bottom: 20px;
+flex-direction: column;
+}
+
+.aboutTypeWriterdiv{
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #7531b4;
+}
+.aboutTypeWriterdiv>span{
+    margin-right: 10px;
+    color: #000;
+}
+
+.aboutContent{
+    font-size: 17px;
+    color: #bac8d3;
+
+    line-height: 30px;
+    margin-top: 10px;
+}
+.btnDiv{
+    margin-top: 20px;
+    width: 200px;
+}
+
+/* responsive */
+
+@media (max-width: 1114px){
+    .myImageDiv{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
+    .aboutMeDiv{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutContent{
+        font-size: 16px;
+text-align: center;
+    }
+    .aboutTypeWriterdiv{
+        font-size: 25px;
+    }
+    .btnDiv{
+        display:none;
+    }
+    .myImageDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .myPersonalImage{
+        height: 332px;
+        width: 330px;
+    }
+    .myPersonalImage>img{
+        height: 400px;
+        width: 330px;
+    }
+}
+@media (max-width: 604px){
+    .aboutMeDiv{
+        width: 90%;
+    }
+    .myImageDiv{
+        margin-top: 130px;
+    }
+}
+@media (max-width: 499px){
+    .aboutMeDiv{
+        width: 96%;
+    }
+    .myImageDiv{
+        margin-top: 130px;
+    }
+}

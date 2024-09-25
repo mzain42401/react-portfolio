@@ -1,0 +1,242 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@font-face{
+  font-family: Montserrat;
+  src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+}
+*{
+  font-family: "Montserrat",sans-serif;
+}
+
+
+.homeContainer{
+
+    height: 100vh;
+    color: #867c7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    background: linear-gradient(rgb(54, 55, 55,0.89),rgb(54, 55, 55,0.89  )), url('../../images/Untitled\ design.png') center center no-repeat;
+    background-attachment: fixed;
+}
+.homeCenterDiv{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+ .homeContentDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 90px;
+ }
+.homeCenterDiv .homeContentDiv h1{
+    font-size: 20px;
+    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat",sans-serif;
+  font-weight: normal;
+
+}
+ .content{
+    font-size: 17px;
+    line-height: 35px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+color: #bac8d3;
+    margin-top: 20px;  
+    font-weight: normal; 
+}
+.content>p{
+  text-align: center;
+}
+.wave {
+    font-size: 25px;
+    animation-name: wave-animation;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    10% {
+      transform: rotate(14deg);
+    }
+  
+    20% {
+      transform: rotate(-8deg);
+    }
+  
+    30% {
+      transform: rotate(14deg);
+    }
+  
+    40% {
+      transform: rotate(-4deg);
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    60% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .typewriter{
+    font-size: 3rem;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #e0a80d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+ 
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value for desired distance */
+    }
+  }
+  @keyframes rotarte{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg)}
+  }
+  .homeLinkDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 25px; 
+    width: max-content;
+  }
+  .homeLink{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-right: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: #7531b4;
+    border: 2px solid #7531b4;
+box-shadow: 8px 8px 10px gray;
+    height: 40px;
+    width: 40px;
+    transition: all ease 1s;
+    cursor: pointer;
+   }
+ 
+  .homeIcon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center
+  }
+ 
+  .homeLink:hover .homeIcon{
+    
+    color: #7531b4;
+  }
+  .homeLink:hover{
+scale: 1.2;
+    background-color: transparent;
+    border: 2px solid #7531b4;
+    box-shadow: 0px 0px 10px #7531b4;
+  }
+  .btnDiv{
+    margin-top:35px;
+    width: 140px;
+    
+  }
+  .cvBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      padding: 10px;
+      font-size: 15px;
+      width: 100%;
+      outline: none;
+      color: #fff;
+      border: 2px solid #e0a80d;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: all ease 1s;
+      cursor: pointer;
+      text-decoration: none;
+   
+  }
+  .cvBtn:hover{
+    background-color: #e0a80d;
+  }
+  @media (max-width: 1114px){
+    .homeCenterDiv .homeContentDiv h1{
+      font-size: 40px;
+    }
+    .wave{
+      font-size: 35px;
+    }
+    .homeCenterDiv{
+    padding-top: 30px;
+
+      justify-content: center;
+      
+    }
+    .homeContentDiv{
+    width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .homeLinkDiv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .btnDiv{
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      margin: 30px auto;
+    width: 200px;
+
+
+    }
+    .typewriter{
+      font-size: 25px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+.content{
+  width: 90%;
+  font-size: 16px !important;
+}
+
+
+  }

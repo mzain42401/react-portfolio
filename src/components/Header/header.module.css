@@ -1,0 +1,130 @@
+
+
+@font-face{
+    font-family: Agutina ;
+    src: url('../../fonts/Agutina\ 400.otf');
+  }
+.navbar{
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    background-color:#2b2c2c;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #fff;
+padding-top: 5px;
+padding-bottom: 5px;
+} 
+.imageLogoDiv{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff ;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar .logo{ 
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo>p{
+    font-family: "Agutina" ,sans-serif;
+    color: #e0a80d;
+    text-transform: capitalize;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+
+
+}
+.navbar .logo span{
+    color: gray;
+    font-weight: normal;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+align-items: center;
+
+}
+.navbar ul li{
+    padding: 0px 23px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #bac8d3;
+    position: relative;
+    font-size: 12.5px;
+    padding: 5px;
+}
+.navbar ul li a:hover{
+  color: #e0a80d;
+   
+}
+
+
+.navToggleBtn{
+    background-color: transparent;
+    color: #fff ;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: none;
+}
+.navToggleBtn:hover{
+    color: #e0a80d ;
+}
+@media screen and (max-width: 915px) {
+    
+    
+    .navToggleBtn{
+        display: block;
+
+    margin-right: 20px;
+    }
+    .navbar ul  {
+      position: fixed;
+      top: 65px;
+      right:  -100%;
+      width: 80%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #2b2c2c;
+      transition: all 0.9s ease;
+      padding-top: 20px;
+    }
+    .navbar ul  li{
+        margin: 18px 0px;
+       
+    }
+    .navbar ul li a{
+        color: #bac8d3;
+
+    }
+    .navbar ul li a:hover{
+        color: #fff;
+    }
+  
+    .navbar ul.active {
+      right: 0%;
+margin-right: 0px;
+
+    }
+    
+  }

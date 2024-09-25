@@ -1,0 +1,133 @@
+
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+.servicesSection{
+    background-color: #292929;
+    position: relative;
+    padding: 50px 10px;
+    
+    
+}
+
+.mainIconDiv{
+    position: absolute;
+    background-color: #2D2E2E;
+    box-shadow: 0px 0px 10px black ;
+    /* border: 1px solid #fff; */
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 18px 0px;
+    border-radius: 5px;
+
+}
+.iconDiv>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: #171717;
+    margin: 10px 10px;
+    padding: 10px 45px;
+    color: #e0a80d;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75px;
+text-decoration: none;
+
+}
+.iconDiv>a>span{
+    margin-right: 10px;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.iconDiv>a:hover{
+    box-shadow: 0px 0px 04px #e0a80d;
+
+}
+.servicesSection>h1{
+    color: #e0a80d;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+font-family: "Montserrat";
+font-weight: bolder;
+
+}
+.servicesCenterDiv{
+    margin: 30px auto 0px auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width: 95%;
+}
+.myService{
+    background-color: #171717;
+    height:250px ;
+    width: 300px;
+    margin: 15px;
+    color: #bac8d3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid  #171717;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* box-shadow: 10px 10px 10px #000000; */
+    box-shadow: 0px 0px 18px rgb(58, 58, 58);
+
+    justify-content: center;
+    transition: all ease .5s;
+}
+
+/* logo,name,discription */
+.logo{
+    color: #e0a80d;
+    font-size: 35px;
+
+}
+.name{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fff;
+}
+.discription{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 3px;
+    color: #bac8d3;
+}
+/* .myService:hover{
+    scale: 1.05;
+    background-color: #e0a80d;
+    border: 2px solid  #e0a80d;
+    cursor: pointer;
+
+}
+.myService:hover .discription{
+    color: #171717;
+}
+.myService:hover .logo{
+    color: #171717;
+} */
+
+@media (max-width: 520px){
+
+    .servicesSection>h1{
+        margin-top: 130px;
+    }
+
+}
+
